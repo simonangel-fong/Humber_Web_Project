@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="./css/main.css" />
   <head>
     <!-- 
         Course: Web Programming and Design - ITC-5103
         Project Phrase: #01
         Programmer: Hamed Tara
     -->
-    <title>CN TOWER</title>
+    <title>CN TOWER</title><br>
   </head>
 
   <body>
     <!-- header -->
     <header>
-      <h1>CN TOWER</h1>
+      <div class="headerLine">
+        <h1>CN TOWER</h1>
+      </div>
+
+     
+      <upperbutton>
       <nav>
-        <a href="./index.html">Home</a>
-        <a href="./attr01.html">CN TOWER</a>
-        <a href="./attr02.html">Royal Ontario Museum
-        </a>
-        <a href="./attr03.html">Niagara falls</a>
-        <a href="./about_us.html">About us</a>
+        <a href="./index.html">
+          <button class="upperbutton">Home</button></a>
+          <a href="./attr01.html">
+            <button class="upperbutton">CN TOWER</button></a>
+
+            <a href="./attr02.html">
+              <button class="upperbutton">Royal Ontario Museum</button></a>
+              <a href="./attr03.html">
+              <button class="upperbutton">Niagara falls</button></a>
+              <a href="./about_us.html">
+                <button class="upperbutton">About us</button></a>
       </nav>
+    </upperbutton>
       <hr />
     </header>
 
@@ -29,38 +41,36 @@
         <tr valign="top">
           <td width="300px" rowspan="3">
             <!-- sidebar for menu-->
-            Menu
+            
             <ul>
               <li><a href="./index.html">Home</a></li>
               <li><a href="./attr01.html">CN TOWER</a></li>
-              <li><a href="./attr02.html">Royal Ontario Museum
-              </a></li>
+              <li><a href="./attr02.html">Royal Ontario Museum</a></li>
               <li><a href="./attr03.html">Niagara falls</a></li>
             </ul>
+          
           </td>
-          <td style="min-width: 800px">
-            <div style="min-width: 400px; min-height: 400px; border: 1px">
-              <a href="./attr01_gallery.html">
-                <img
-                  src="img/attr01/CN TOWER cover.jpg"
-                  alt="CN TOWER cover"
-                  width="600px"
-                  height="300px"
-                />
-              </a>
+          <div class="gallery">
+            <a target="_blank" href="attr01_gallery.html">
+              <img src="img/attr01/CN TOWER cover.jpg" alt="mydreams4" width="800" height="400">
+            </a>
+            <div class="desc">
             </div>
-            <hr />
-          </td>
-          <td width="300px" rowspan="3"></td>
-        </tr>
+          </div>
+          
+ 
 
         <!-- row: Text description -->
         <tr>
           <td>
             <!-- article1: attr01 -->
-            <article>
-              <h5>CN TOWER</h5>
+            
+            <div class="title1">
+              <h5>CN TOWER</h5></div>
               <p>
+                
+                <article class="article1">
+            
                 The CN Tower (French: Tour CN) is a 553.3 m-high (1,815.3 ft)
                 concrete communications and observation tower in downtown
                 Toronto, Ontario, CanadaBuilt on the former Railway Lands, it
@@ -88,8 +98,8 @@
 
             <!-- article2: attr01 -->
             <article>
-              <h5>The history of CN TOWER</h5>
-
+              <div class="title1"><h5>The history of CN TOWER</h5></div>
+              <article class="article1">
               <p>
                 The CN Tower is the tallest freestanding structure in the
                 Western Hemisphere. As of 2013, there are only two other
@@ -162,8 +172,10 @@
                 building in which less than 50% of the construction is usable
                 floor space'.
               </p>
+              </article>
               <p>
-               <h5> "World's Tallest Tower" title</h5>
+                <div class="title1"><h5> "World's Tallest Tower" title</h5></div>
+               <article class="article1">
                 Guinness World Records editor-in-chief Craig Glenday announced
                 that Burj Khalifa was not classified as a tower because it has
                 too much usable floor space to be considered to be a tower.CN
@@ -180,55 +192,63 @@
                 remains the tallest free-standing structure in the Western
                 Hemisphere, and is the third-tallest tower.
               </p>
-
+            </div>
+            </article>
               <p>
-                <h5>Height records </h5>
+               <div class="title1"><h5>Height records </h5></div>
+                <article class="article1">
                 Since its construction, the tower has gained the following world height records:
+                </article>
               </p>
             </article>
           
             <table border="1">
+               
+            </table>
+
+            <table class="styled-table">
+              <thead>
                 <tr>
-                  <td>Record</td>
-                  <td>Owner</td>
-                  <td>Value</td>
-                  <td>Time perod</td>
-                  <td>Succeeded by</td>
+                  <th>Record</th>
+                  <th>Owner</th>
+                  <th>Value</th>
+                  <th>Time period</th>
+                  <th>Succeeded by
+                  </th>
                 </tr>
+              </thead>
+              <tbody>
                 <tr>
-                  <td >World's tallest free-standing structure</td>
+                  <td >World's tallest free-standing structure	</td>
                   <td>CN Tower</td>
-                  <td>553.33 metres</td>
+                  <td>553.33 metres	</td>
                   <td>March 31, 1975 to September 12, 2007</td>
                   <td>Burj Khalifa</td>
                 </tr>
-                <tr>
-                  <!--table row -->
+        
+                <tr class="active-row">
                   <td>World's tallest tower	</td>
-                  <td>CN Tower</td>
-                  <td>553.33 metres</td>
-                  <td>1975 to 2009	</td>
-                  <td rowspan="2">Canton Tower</td>
-                </tr>
-                <tr>
-                  <!--table row -->
-                  <td>World's highest public observation gallery</td>
-                  <td>SkyPod</td>
-                  <td>447 metres</td>
-                  <td>---</td>
-                </tr>
-          
-                <tr>
-                  <!--table row -->
-                  <td >World's highest glass floor panelled elevator</td>
-          
-                  <!--td = table data-->
                   <td>CN Tower	</td>
-                  <td>346 metres</td>
-                  <td>2008 to present</td>
+                  <td>553.33 metres	</td>
+                  <td>1975 to 2009	</td>
+                  <td rowspan="2">Canton Tower
+                  </td>
+                </tr>
+                <tr>
+                  <td>World's highest public observation gallery	</td>
+                  <td>SkyPod	</td>
+                  <td>447 metres	</td>
+                  <td>---
+                  </td>
+                </tr>
+                <tr>
+                  <td >World's highest glass floor panelled elevator	</td>
+                  <td>CN Tower</td>
+                  <td>346 metres	</td>
+                  <td>2008 to present	</td>
                   <td>----</td>
                 </tr>
-              </table>
+              </tbody>
             </table>
     </main>
 
