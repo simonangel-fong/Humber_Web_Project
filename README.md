@@ -53,4 +53,21 @@
 
 ---
 
+## Phase 2
+
+- **Assignment No.**: Group Project Phrase 02
+  <br>
+- **Description**:
+  Based on the pages in phase 01, `CSS` codes have been added, including main.css, embedded style, and inline style.
+  <br>
+- **Responsibility**:
+
+|               | Hamed Tara                                        | Ramakrishna Likith Buddavarapu                      | Wenhao Fang                                    |
+| ------------- | ------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| File          | attr01.html<br>attr01_gallery.html<br>attr02.html | attr03.html<br>attr03_gallery.html<br>about_us.html | home.html<br>survey.html<br>thank_you.html<br> |
+| Task          |                                                   |                                                     | CSS code<br>debug<br>submission                |
+| Working Hours |                                                   |                                                     | 10                                             |
+
+---
+
 [TOP](#introduction)
