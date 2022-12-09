@@ -65,8 +65,8 @@
 |               | Hamed Tara                                        | Ramakrishna Likith Buddavarapu                      | Wenhao Fang                                    |
 | ------------- | ------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
 | File          | attr01.html<br>attr01_gallery.html<br>attr02.html | attr03.html<br>attr03_gallery.html<br>about_us.html | home.html<br>survey.html<br>thank_you.html<br> |
-| Task          |                                                   |                                                     | CSS code<br>debug<br>submission                |
-| Working Hours |                                                   |                                                     | 10                                             |
+| Task          | CSS code<br>debug                                 | CSS code<br>debug                                   | CSS code<br>debug<br>submission                |
+| Working Hours | 18                                                | 18                                                  | 15                                             |
 
 ---
 
